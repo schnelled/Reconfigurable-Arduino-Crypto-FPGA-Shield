@@ -1,0 +1,30 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 1/6/18 thru 1/12/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Start first draft of Product Design Specificiations
+2.Helped create questions for Joe and Dan in meeting notes.
+3.Researched API development, FPGA shield development, and other similar 
+projects.
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Work towards completing the PDS.
+2.Gather as many engineering and marketing requirements as I can for the
+PDS.
+3.Complete first draft of the PDS and review at a later time.
+
+
+Issues:
+
+----------------------------------------------------------------------------
