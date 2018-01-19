@@ -1,0 +1,31 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+
+To:			Gomathy Venkata Krishnan, Meiqi Zhao, Ryan Bornhorst
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 1/13/18 thru 1/19/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Completed initial draft of the product design specification.
+2. Created meeting notes and task to do for next week.
+3. Researched pre-existing Arduino FPGA shield.
+4. Add marketing requirements and engineering requirements to the product design specification
+5. Dan answered initial questions that we had about the project
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Complete project description section of the product design specifiction.
+2. Complete background section of the product design specification.
+3. Add more marketing requirements and engineering requirements to the PDS.
+5. Have first draft of product design specification complete for team review.
+6. Complete list of component comparision for design descisions.
+7. Setup group meeting with Dr. Teuscher
+8. Come up with a time and date to meet with Joe and Dan before the end of January.
+
+Issues:
+----------------------------------------------------------------------------
+None
