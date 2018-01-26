@@ -1,0 +1,39 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 1/22/18 thru 1/26/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Completed first draft of the Product Design Specification.
+2.Generated more questions for Joe and Dan regarding hardware requirements.
+3.Decided on development boards for the FPGA (either mojo v3 or pulserain m10)
+and sent to Joe and Dan for review.
+4.Came up with a list of project tasks for using in project management 
+software.
+5.Did research on various similar projects using AES functionality in FPGA
+development.
+
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Create project outline using project management software.
+2.Create a draft for the Project Proposal.
+3.Possibly order the FPGA shield after consideration from Joe and Dan.
+4.Set up development environment for AES encryption software and possibly
+begin testing its functionality.
+5.Continue research on AES software and using crypto software to program
+FPGAs.
+
+
+Issues:
+
+----------------------------------------------------------------------------
+None
