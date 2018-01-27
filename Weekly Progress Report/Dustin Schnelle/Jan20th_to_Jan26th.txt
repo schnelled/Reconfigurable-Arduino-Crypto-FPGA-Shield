@@ -1,0 +1,30 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		Gomathy Venkata Krishnan, Meiqi Zhao, Ryan Bornhorst
+Bcc:		me
+Subject:	Weekly Progress Report “Week 1/20/18 thru 1/26/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Completed the project description section of the product design specification (PDS).
+2. Completed the background section of the product design specification (PDS).
+3. Completed the first draft of the product design specification (PDS).
+4. Sent questions about the choice of FPGA and developmemt boards.
+5. Scheduled February 2nd meeting with Joe and Dan at Galois.
+6. Resreach possible FPGA options from Microsemi.
+7. Create template for design decisions.
+8. Create tasks to be place into a Gantt chart.
+9. Meet with Dr.Teuscher and scheduled weekly meeting with Dr. Teuscher every Thursday at 11am.
+10. Resreach possible development boards to use for prototyping.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Complete a first draft of a Gantt chart.
+2. Complete the design proposal.
+3. Finish research on Microsemi FPGA and add specification numbers to compent comparision excel.
+4. Complete the design decisions document 
+5. Resreach the software SAW and Cryptol before meeting at Galois February 2nd.
+6. Complete initial bill of materials (BOM).
+
+Issues:
+----------------------------------------------------------------------------
