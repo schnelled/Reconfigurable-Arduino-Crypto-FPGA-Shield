@@ -1,0 +1,32 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 1/21/18 thru 1/28/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Finished reliability and availibity sections of PDS
+2. Completed operational section of PDS and edited some sections of the PDS
+3. Added eight engineering and marketing requirements 
+4. Completed component comparison for xilinx fpga
+5. Listed criteria for fpga selection  
+6. Came up with a new list of questions 
+7. Looked up api documentation and aes
+8. Identified potential FPGA dev boards : Papilio and Mojo v3
+9. Found out about available software for PCB design, FPGA simulation/synthesis and Arduino/FPGA programming in Engineering Building
+
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. use and test api and aes libraries
+2. Finalize BOM and PDS
+3. Come up with a plan for building and implementing the design for the embedded shield
+4. setup trello 
+5. Submit BOM for Papilio and Mojo v3
+6. Ask project related questions on slack
+7. Work on weekly presentation
+8. Come up with a full fledged plan/idea for project by Feb 02, 2018.
+
+Issues:
+-------------------------------------------------------------------------------------------------------------------------------------
+None
