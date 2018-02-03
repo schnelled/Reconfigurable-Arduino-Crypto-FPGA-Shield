@@ -1,0 +1,42 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 1/29/18 thru 2/2/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Submitted first draft of PDS to advisor and sponsors (received feedback
+from both)
+2.Sent in a BOM for the FPGA development boards. Ordered the Papilio and Mojo
+v3.
+3.Learned Galois software and how it works for improving cryptography in AES
+related software libraries.
+4.Met with sponsors at their downtown location to learn the overall goal of the
+project.
+
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Create project outline using project management software (Microsoft Project).
+2.Read documentation on SAW and Cryptol to get a good idea on how to set up
+and implement the software development environment.
+3.Pick 1 AES crypto algorithm to run through the software and make sure that
+the software is working as intended.
+4.Using advice from advisor and sponsors, improve the PDS and add it to a draft 
+of the Project Proposal.
+5.Learn how to use a model checker for both AES software and an HDL 
+crypto implementation.
+
+
+
+Issues:
+
+----------------------------------------------------------------------------
+None
