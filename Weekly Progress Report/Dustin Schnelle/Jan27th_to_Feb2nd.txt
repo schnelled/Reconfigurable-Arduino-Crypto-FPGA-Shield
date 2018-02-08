@@ -1,0 +1,29 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+
+To:			Gomathy Venkata Krishnan, Meiqi Zhao, Ryan Bornhorst
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 1/27/18 thru 2/2/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Complete initial draft for the project proposal.
+2. Complete rough draft of the Gantt chart tasks
+3. Resreach SAW and Cryptol software.
+4. Visited Galois and asked questions about unclear topics.
+5. Learned how Galois software works to improve crytography in AES related software libraries.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Finish rough draft of Gantt chart.
+2. Revise Gantt chart after group review.
+3. Revise the product design specification to reflect Dr. Teuscher's and the sponser's
+suggestions.
+4. Download cryptol software package and add preform basic functions.
+
+Issues:
+----------------------------------------------------------------------------
+None
