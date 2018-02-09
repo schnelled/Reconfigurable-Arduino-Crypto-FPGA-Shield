@@ -1,0 +1,27 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 1/29/18 thru 2/4/18: Capstone Project”
+
+Accomplishments from the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Submitted first draft of PDS to advisors and sponsors
+2. Mojo v3 and Papilio one boards have been ordered
+3. Reading the Cryptol documentation on the Galois page
+4. Looking at documents explaining how to separate the Arduino and FPGA to functions on different boards
+5. Met with sponsors and understood the steps we need to follow to setup and test cryptol, SAW and NaCl libraries
+6. Took notes on AES, Cryptol, SAW and started changing the proposol based on the inputs
+7. Started downloadingloading all the required libraries
+8. Changed approach towards project : work on existing shield before custom board implementation
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Collect the embedded shields from Galois on 9th February 2018.
+2. Read about both the boards
+3. Amend the proposal based on inputs
+4. Read documentation on SAW and Cryptol and start working on a few tutorials
+5. Make a list on possible AES algorithms to use
+
+Issues:
+-------------------------------------------------------------------------------------------------------------------------------------
+None
