@@ -1,0 +1,27 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		Gomathy Venkata Krishnan, Ryan Bornhorst, Meiqi Zhao
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/3/18 thru 2/9/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Created task list for the documentation Gantt chart.
+2. Create task list for the engineering Gantt chart.
+3. Resreach crypol softare to gain general overview.
+4. Obtained answers to questions asked during the meeting with Dan and Joe.
+5. Obtained the development board from Galois that we requested with BOM.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Complete a rough draft of the documentation Gantt chart before meeting on Tuesday (2/9/18).
+2. Complete a rough draft of the engineering Gantt chart before meeting on Tuesday (2/9/18).
+3. Add market compition to the background section of the Project Proposal.
+4. Complete rough draft (level 0) of the system component breakdown (Block diagram)
+section of the Project Proposal.
+5. Research more information to present Tuesday (2/9/18) on the Papilio One 250K development
+board.
+6. Download and gain hands on experience with Cryptol software.
+
+Issues:
+----------------------------------------------------------------------------
