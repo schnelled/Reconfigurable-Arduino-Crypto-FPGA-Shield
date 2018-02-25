@@ -1,0 +1,31 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 2/12/18 thru 2/16/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Complete all of Project Proposal except Gant Chart
+
+
+
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Finish Gant Chart
+2.Read documentation on SAW and Cryptol to get a good idea on how to set up
+and implement the software development environment.
+
+
+
+Issues:
+
+----------------------------------------------------------------------------
+None
