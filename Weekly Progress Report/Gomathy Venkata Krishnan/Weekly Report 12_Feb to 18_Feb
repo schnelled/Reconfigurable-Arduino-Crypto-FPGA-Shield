@@ -1,0 +1,24 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/12/18 thru 2/17/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Work on remaining parts of the Project proposal like the BOM and competitor research
+2. Discussion of team responsibilities
+3. Made a list of questions to ask sponsors during the meeting  
+
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Complete Gantt chart
+2. Try Cryptol and SAW programs on linux platform 
+3. Load tutorial programs on the boards to see how it works
+
+
+Issues:
+-------------------------------------------------------------------------------------------------------------------------------------
+1. Use of Cryptol software caused stalling when loaded onto the Mojo V3 board
+2. Overheating of the Mojo Board resulted in use of heat sinks
+3. Needed more clarification on how to use cryptol and SAW
