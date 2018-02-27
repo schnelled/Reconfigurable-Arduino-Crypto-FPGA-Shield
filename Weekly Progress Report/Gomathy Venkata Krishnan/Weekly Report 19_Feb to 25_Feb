@@ -1,0 +1,21 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/19/18 thru 2/25/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Got Mojo V3 work when IDE or Vivado was used
+2. Went over proposal during meeting with sponsors
+3. Received some feedback on how Cryptol and SAW is supposed to be used
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Download binary files for Cryptol 
+2. Go over AES files in libraries and test some functions
+3. Experiment with test and prove on windows 
+4. Test the same with the board 
+
+Issues/Remarks:
+-------------------------------------------------------------------------------------------------------------------------------------
+Issues from last week have been solved.
