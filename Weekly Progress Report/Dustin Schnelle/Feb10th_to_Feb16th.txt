@@ -1,0 +1,25 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/10/18 thru 2/16/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Complete outline for rough draft of the documentation Gantt chart.
+2. Researched information on the Papilio One 250K development board.
+3. Made list of questions to ask sponsors during the meeting scheduled for 2/21/18.
+
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Read documentation on SAW and Cryptol.
+2. Try Cryptol and SAW on personal computer.
+3. Finish rough draft of the documentation Gantt chart.
+4. Finish rought draft of the engineering Gantt chart.
+5. Complete final sections of the project prosal tasked out to me.
+
+Issues:
+----------------------------------------------------------------------------
+1. Quick heatup of the Papilio One 250K development board after a few minute of usage.
+	Note: The usage was mostly uploads to the board.
