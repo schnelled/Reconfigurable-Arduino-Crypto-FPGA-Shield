@@ -1,0 +1,25 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/16/18 thru 2/23/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Complete all of the initial Project Proposal.
+2. Had meeting with project sponsor and was given direction on where to go from here.
+3. Complete final draft of the documentation Gantt chart.
+4. Complete final draft of the engineering Gantt chart.
+5. Corrected citation in the Project Proposal
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Get a software developement environment up and test the functionality of AES algorithm.
+2. Read documentation on SAW and Cryptol.
+3. Preform more tests with the Papalio One 250K developement board.
+
+Issues:
+----------------------------------------------------------------------------
+1. Wasn't able to get the public version of Cryptol working properly.
+	Note: This issue was resolved after obtaining binary files for Cryptol from Dan and Joe.
+2. Increment weather delayed meeting with Dan and Joe.
