@@ -1,0 +1,26 @@
+
+From:		Meiqi Zhao <meiq@pdx.edu>
+To:		Dustin Schnelle, Gomathy Venkata Krishnan, Ryan Bornhorst
+Bcc:		me
+Subject:	Weekly Progress Report “Week 1/29/18 thru 2/24/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+
+1. Finished the first draft of Project Design Specification
+2. Ordered the two FPGA boards, Mojo V3 and Papilio One 250k
+3. Learned cryptol and SAW labraries
+4. Met with sponsors and discussed our project
+
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+
+1. Learn the documentations of the boards
+2. Learn AES crypto algorithm and find algorithms using in project
+
+
+Issues:
+----------------------------------------------------------------------------
+
