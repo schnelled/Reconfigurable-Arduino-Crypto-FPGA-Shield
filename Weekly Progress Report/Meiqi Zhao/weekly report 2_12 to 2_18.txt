@@ -1,0 +1,22 @@
+From:		Meiqi Zhao <meiq@pdx.edu>
+To:		Dustin Schnelle, Gomathy Venkata Krishnan, Ryan Bornhorst
+Bcc:		me
+Subject:	Weekly Progress Report ¡°Week 2/19/18 thru 2/25/18: Capstone Project¡±
+
+
+Accomplishments from the Week:
+---------------------------------------------------------------------------
+
+1. Completed all initial Project Proposal
+2. Met with sponsor and get new board
+
+Goals for the Coming Week:
+----------------------------------------------------------------------------
+
+1. Work with their crypto software
+2. Get development environment and test the AES algorithm board
+3. Learn more crypto and SAW libraries to check which is good
+
+Issues:
+----------------------------------------------------------------------------
+None
