@@ -1,0 +1,24 @@
+
+From:		Meiqi Zhao <meiq@pdx.edu>
+To:		Dustin Schnelle, Gomathy Venkata Krishnan, Ryan Bornhorst
+Bcc:		me
+Subject:	Weekly Progress Report “Week 1/22/18 thru 1/28/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Discussed the FPGA boards and decided which board we are going to use.
+2. Complete first draft of the PDS.
+3. Came up new list questions to Joe and Dan.
+4. Meet with advisor.
+5. Researched the software and program.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Work with Gantt Chart.
+2. Research the information of Arduino and FPGA
+2. Research the software SAW and related code reference.
+
+Issues:
+----------------------------------------------------------------------------
+None
