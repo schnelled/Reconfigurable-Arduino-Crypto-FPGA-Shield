@@ -1,0 +1,5 @@
+
+From:		Meiqi Zhao <meiq@pdx.edu>To:		Dustin Schnelle, Gomathy Venkata Krishnan, Ryan BornhorstBcc:		meSubject:	Weekly Progress Report ¡°Week 2/5/18 thru 2/11/18: Capstone Project¡±Accomplishments from the Week:----------------------------------------------------------------------------
+1. Complete the final Project Proposal2. Received the FPGA boards3. Researched the both boardsGoals for the Coming Week:----------------------------------------------------------------------------
+1. Research how to use Arduino IDE for the boards2. Finish the section of Project Proposal3. Familiar with board and state loading program onto board4. Try to create a development environment
+Issues:----------------------------------------------------------------------------None
