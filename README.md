@@ -10,8 +10,8 @@ Portland State University 2017 Capstone Project
 5. This file may be hidden and can be revealed using $ ls -a  If it doesn't exist then just create the file using the editor of your choice i.e. $ vim ~/.bash_profile
 6. Inside the .bash_profile, add the lines below and save the file
 
-PATH=$PATH:/user_name/Capstone/z3           ----> *directory where z3 binary is located*
-export PATH
+    PATH=$PATH:/user_name/Capstone/z3           ----> *directory where z3 binary is located*  
+    export PATH  
 
 7. You will need to tell the shell that you updated this path by using $ source ~/.bash_profile (you can also quit and restart the shell)
 8. This should allow the shell to find the z3 executable, allowing Cryptol to run properly
