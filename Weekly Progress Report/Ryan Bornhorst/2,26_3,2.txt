@@ -1,0 +1,30 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 2/26/18 thru 3/02/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Got the software development environment up for a working version of 
+Cryptol and SAW in Linux and Windows.
+2.Researched Programming with Cryptol pdf
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Test out crypto functions for AES and SHA in Cryptol/SAW
+2.Play with and figure out the inner workings of source code provided to us
+by our sponsors.
+3.Document code and results from testing.
+
+Issues:
+
+----------------------------------------------------------------------------
+1.Could not get Cryptol working with z3 on Linux.  Fixed the issue by 
+creating a new search path for cryptol to search through to find z3.
