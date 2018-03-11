@@ -1,0 +1,31 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 3/5/18 thru 3/9/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Met with Galois sponsors
+2.Got direction on where to go next (read below)
+3.Learned how to write properties in Cryptol
+4.Understand how to use test: and prove: and associated Cryptol functions
+5.Learned what we need for creating benchmark files, can also use the
+built-ins for AES
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Get comfortable with everything located in AES128.cry
+2.Continue reading through Programming Cryptol
+3.Create some testbench files for a crypto C library or use theirs
+
+Issues:
+
+----------------------------------------------------------------------------
+None
