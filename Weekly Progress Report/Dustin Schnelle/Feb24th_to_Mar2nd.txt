@@ -6,7 +6,6 @@ Subject:	Weekly Progress Report “Week 2/24/18 thru 3/2/18: Capstone Project”
 
 Accomplishments From the Week:
 ----------------------------------------------------------------------------
-1. Meet with Dan & Joe for the 2nd time at Galois.
 2. Complete intial resreach on AES-128 cryptographic algorithm.
 3. Complete intial resreach on SHA-128 cryptographic algorithm.
 	Note: These two algorithm's where the first two Dan & Joe told us to
@@ -16,8 +15,7 @@ Accomplishments From the Week:
 	>Tried on laptop with Window operating system
 	>Tried on virtual machine with Linux Ubuntu
 5. Tried making the makefile for Z3 solver (failed).
-6. Given new direction to focus on Cryptol software after meeting at Galois.
-	Note: NDA was signed during the meeting at Galois.
+7. Scheduled next meeting with Dan & Joe for (March 9th, 2018).
 
 Goals For the Coming Week:
 ----------------------------------------------------------------------------
@@ -28,7 +26,6 @@ Goals For the Coming Week:
 		  going task.
 3. Get Cryptol working on PSU school server.
 4. Run the AES-128 test function in Cryptol.
-6. Schedule next meeting with Dan & Joe.
 
 Issues:
 ----------------------------------------------------------------------------
