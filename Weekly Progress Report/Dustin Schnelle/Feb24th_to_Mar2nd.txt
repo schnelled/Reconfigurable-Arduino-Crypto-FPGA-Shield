@@ -1,0 +1,43 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 2/24/18 thru 3/2/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Meet with Dan & Joe for the 2nd time at Galois.
+2. Complete intial resreach on AES-128 cryptographic algorithm.
+3. Complete intial resreach on SHA-128 cryptographic algorithm.
+	Note: These two algorithm's where the first two Dan & Joe told us to
+		  investigate.
+4. Tried to get public verison of Cryptol working (Galois GitHub).
+	>Tried on PSU servers
+	>Tried on laptop with Window operating system
+	>Tried on virtual machine with Linux Ubuntu
+5. Tried making the makefile for Z3 solver (failed).
+6. Given new direction to focus on Cryptol software after meeting at Galois.
+	Note: NDA was signed during the meeting at Galois.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Add information about choosen cyrptoalgorithms to the GitHub Wiki page.
+	Note: This documentation will be used in the final project report.
+2. Read more about Cryptol documentation.
+	Note: Documentation for Cryptol is large (124 pages), so this is a on
+		  going task.
+3. Get Cryptol working on PSU school server.
+4. Run the AES-128 test function in Cryptol.
+6. Schedule next meeting with Dan & Joe.
+
+Issues:
+----------------------------------------------------------------------------
+1. Couldn't get the public version of Cryptol working on Laptop with Window
+	operating system.
+2. Couldn't get the publice version of Cryptol working on PSU school servers.
+	Note: Don't have the ablity to install software.
+3. Couldn't get the public verison of Cryptol working on virtual machine
+	running Linux Ubuntu.
+4. Failed to make Z3 makefile from instructions provided by documentation.
+	Note: After meeting at Galois we found out we need to use the binary file
+		of Cryptol from the Galois GitHub and not the full package.
