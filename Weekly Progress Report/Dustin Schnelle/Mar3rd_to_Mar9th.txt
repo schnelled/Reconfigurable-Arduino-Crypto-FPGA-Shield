@@ -16,6 +16,8 @@ Accomplishments From the Week:
 6. Tried basic functionality in Cryptol from documentation provided on Cryptol
 	website.
 7. Setup initial date for the final presentation.
+8. Add cryptographic algorithm section to the GitHub wiki about AES-128 and
+	SHA-1.    Note: This will be used in the final project documentation.
 
 Goals For the Coming Week:
 ----------------------------------------------------------------------------
@@ -29,8 +31,6 @@ Goals For the Coming Week:
 
 Issues:
 ----------------------------------------------------------------------------
-1. Getting the binary files for Cryptol to work on PSU school servers.
-	Note: Ryan figured out how to run the binary files without having to 
-		  install.
+1. Getting the binary files for Cryptol to work on PSU school servers.		  install.
 2. Running cryptographic algorithm from origonal directory.
 3. Setting up the PATH for Z3 solver to run on PSU school servers.
