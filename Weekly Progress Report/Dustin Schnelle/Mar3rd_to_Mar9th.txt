@@ -1,0 +1,36 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/3/18 thru 3/9/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Got Cryptol working with Z3 solver on virtual machine running Linux Ubuntu.
+2. Got Cryptol working with Z3 solver on laptop with Windows operating system.
+	Note: Accomplished using Gomathy's discovory.
+3. Got Cryptol working with Z3 solver on PSU school servers.
+	Note: Accomplished using Ryan's discovory.
+4. Third meeting with Dan & Joe at Galois (March 9th, 2018).
+5. Ran the AES-128.cry file test1 and test2 functions using Cryptol.
+6. Tried basic functionality in Cryptol from documentation provided on Cryptol
+	website.
+7. Setup initial date for the final presentation.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Setup doodle for Spring term availablity.
+	Note: For scheduling group meeting and weekly meetings with Dr. Teuscher.
+2. Understand how to read and write basic functions in Crptol.
+3. Read about Haskell Curried programming
+4. Get AES-128 function working
+5. Write initial testbenchs for AES-128
+	Note: Benchmarking for both c version & verilog version.
+
+Issues:
+----------------------------------------------------------------------------
+1. Getting the binary files for Cryptol to work on PSU school servers.
+	Note: Ryan figured out how to run the binary files without having to 
+		  install.
+2. Running cryptographic algorithm from origonal directory.
+3. Setting up the PATH for Z3 solver to run on PSU school servers.
