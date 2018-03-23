@@ -1,0 +1,23 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/4/18 thru 3/10/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Met with Galois sponsors
+2. Made a flowchart with respect to future steps
+3. Documented how a new property is made, how to access a property, test, prove and check property
+4. Learnt how to read a cryptol file, c file and benchmark file
+5. Learning to use emacs   
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Try and test all functionality in AES128.cryptol
+2. Try all the test and prove related functions in SAW 
+3. Work on creating a testbench files with basic functionality 
+4. Upload new bitstream onto Mojo V3 board
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Having some issues uploading new file on the Mojo Board 
