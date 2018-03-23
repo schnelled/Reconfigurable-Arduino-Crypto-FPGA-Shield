@@ -1,0 +1,22 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/11/18 thru 3/17/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Tried all the functions taught by Galois
+2. Tried out some similar functions
+3. Finalised the algorithms that we plan to test
+4. Created a testbench : testing in progress
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Read about the Pulserain board
+2. Read how to code the Mojo V3 board MCU and FPGA individually
+3. Continue working on uplading the bitstream
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Working on testbench (in progress)
+
