@@ -1,0 +1,28 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 3/12/18 thru 3/16/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Read more from the Programming Cryptol manual
+2.Started diving into the AES128.cry file to learn it effectively
+3.Started looking in to creating test benches for our embedded
+boards.
+4.Got the dev environment fully up and running.
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Meet with Galois sponsors and learn where to go from here.
+
+Issues:
+
+----------------------------------------------------------------------------
+None

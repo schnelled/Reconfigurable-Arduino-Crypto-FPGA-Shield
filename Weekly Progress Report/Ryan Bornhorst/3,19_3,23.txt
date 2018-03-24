@@ -1,0 +1,30 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 3/19/18 thru 3/23/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Met with Galois sponsor last Friday to get more direction
+2.The wanted us to focus primarily on learning everything we can about
+AES128.cry and then move on to a new algorithm from there.
+3.Started looking into the AES.c and .cry files
+4.Combined this with reading about AES128 in the ProgrammingCryptol pdf
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Create test bench files for aes.c on embedded boards
+2.Generated bitstream for this aes file onto the FPGA on our board
+3.Generate benchmarks for these and compare
+
+Issues:
+
+----------------------------------------------------------------------------
+None
