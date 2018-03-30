@@ -1,0 +1,25 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/17/18 thru 3/23/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Made changes to the Gantt chart to reflect current progress.
+	Note: Changes where made because the original Gantt chart was out of
+		date and didn't reflect the steps we needed to take.
+2. Continued reading Cryptol documentation.
+3. Ran functions from SHA1.cry1 to test the functionality.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Finish crypto algorithm section of the Wiki page.
+2. Clean up the project Wiki.
+	Note: This is to help keep all of the documentation in one place and help
+		with the final report.
+3. Run speed tests on SHA1.cry1.
+4. Create and load SHA1 bitstream to the Papalio One development board.
+
+Issues:
+----------------------------------------------------------------------------

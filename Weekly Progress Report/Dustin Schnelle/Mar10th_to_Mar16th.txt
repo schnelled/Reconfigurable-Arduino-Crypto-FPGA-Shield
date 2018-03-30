@@ -1,0 +1,23 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/10/18 thru 3/16/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Cyptol and Saw enviroments setup/functioning on Windows laptop, 
+	Virtual Machine, and PSU school server.
+2. Tested some of the functionality of AES-128.cry in Cryptol.
+3. Read more of the Cryptol documentation.
+4. Research on testbenches for AES-128 algorithm.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Make fixes to the Gantt chart to reflect progress
+2. Fully understand the functions in AES-128.cry
+3. Run speed test for AES-128.cry
+
+Issues:
+----------------------------------------------------------------------------
+None
