@@ -3,7 +3,8 @@ Portland State University 2017 Capstone Project
 
 ### Running Speed Benchmark for OpenSSL
 + $ openssl speed aes-128-cbc
-+ This will run the AES_cbc_encrypt(unsigned char*, unsigned char*, (size_t) block_size, struct AES_KEY, vector(16), ENCRYPT)  
++ This will run the  
+AES_cbc_encrypt(unsigned char*, unsigned char*, (size_t) block_size, struct AES_KEY, vector(16), ENCRYPT)    
 function for up to 3 seconds for each block_size (16, 256, 1024, 8192) input.  It will then spit out the # of blocks that  
 it was able to encrypt in 3 seconds for each size.
 
