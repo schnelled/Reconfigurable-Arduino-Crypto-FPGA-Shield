@@ -4,15 +4,16 @@ Portland State University 2017 Capstone Project
 ### Running Speed Benchmark for OpenSSL
 + $ openssl speed aes-128-cbc
 + This will run the  
->**AES_cbc_encrypt(unsigned char*, unsigned char*, (size_t) block_size, struct AES_KEY, vector(16), ENCRYPT)**    
+    **AES_cbc_encrypt(unsigned char*, unsigned char*, (size_t) block_size, struct AES_KEY, vector(16), ENCRYPT)**        
 function for up to 3 seconds for each block_size (16, 256, 1024, 8192) input.  It will then spit out the # of blocks that  
 it was able to encrypt in 3 seconds for each size.
 + After running this on OpenSSL on ubuntu school server: *17482011 cbc's in 3 seconds* for a block size of 16.
 + Running on derivative created by us in AES128 folder on school server: *17561789 cbc's in 3 seconds* for block size of 16.
     - This number was generated using the average of 20 trials w/ random inputs and keys for 3 seconds each.
     - The slight difference (79,778 iterations) may be due to randomizing the inputs and keys or calling the  
-    **AES_encrypt(unsigned char* buf, unsigned char* buf, struct AES_KEY)** function directly instead of using the AES_cbc_encrypt()  
-    wrapper for different block sizes. Also the speed.c file in OpenSSL may be doing something extra on the side.
+    **AES_encrypt(unsigned char* buf, unsigned char* buf, struct AES_KEY)**     
+    function directly instead of using the AES_cbc_encrypt() wrapper for different block sizes.   
+    Also the speed.c file in OpenSSL may be doing something extra on the side.
     - The purpose of this was to simplify some of the functionality in the OpenSSL benchmark library for use on our embedded boards  
     so that we can create our own benchmarks on the embedded systems.  
         - Also to generate similar functionality and similar results to the OpenSSL speed benchmark shown above.
