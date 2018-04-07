@@ -14,8 +14,8 @@ it was able to encrypt in 3 seconds for each size.
       __AES_encrypt(unsigned char* buf, unsigned char* buf, struct AES_KEY)__         
     function directly instead of using the AES_cbc_encrypt() wrapper for different block sizes.     
     Also the speed.c file in OpenSSL may be doing something extra on the side.
-    - The purpose of this was to simplify some of the functionality in the OpenSSL benchmark library for use on our embedded boards  
-    so that we can create our own benchmarks on the embedded systems.  
+    - The purpose of this was to simplify some of the functionality in the OpenSSL benchmark library for use on our embedded
+    boards so that we can create our own benchmarks on the embedded systems.  
         - Also to generate similar functionality and similar results to the OpenSSL speed benchmark shown above.
 
 ### Running Cryptol with z3 for Ubuntu Server
