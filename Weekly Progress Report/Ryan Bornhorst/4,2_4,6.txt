@@ -1,0 +1,36 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 4/2/18 thru 4/6/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Uploaded a possible benchmark file for the AES-128 algorithm from OpenSSL.
+2.With some workarounds this file may be able to be loaded onto our
+embedded processors through the Arduino IDE.
+3.Added documentation for running the Speed benchmark on OpenSSL for AES-128.
+4.Added documentation for running the Arduino IDE on the Mojo v3.
+5.Still reading up on the files that were given to us by the sponsors.
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Get benchmarks and testbenches loaded onto the embedded processors and
+the FPGA.
+2.Work through the coding examples that Galois provided us.
+3.Continue researching crypto algorithms. (AES, SHA, etc.)
+
+Issues:
+
+----------------------------------------------------------------------------
+1.Ran out of memory on the embedded board (Mojo v3 and Arduino Uno) when 
+trying to create a dumbed down version of the AES-128 benchmark file.
+2.Seems that the file aes_core.c that contains the encryption algorithm
+takes up too much memory on the board.
+3.Possible solution would be using a more hearty board. (Mega or PulseRain)
