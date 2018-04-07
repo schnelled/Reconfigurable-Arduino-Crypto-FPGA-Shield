@@ -1,0 +1,58 @@
+Meeting Notes (3/9/2018)- Galois, downtown Portland
+
+Example of Running "test_aes" Property
+test1 : AESTest
+test1 = { key = 0xXXX, input = 0xXXX, output = 0xXXX }
+
+Haskell Curried Programming
+	-Cryptol uses Haskell
+	-Everything is a function of a function
+
+Using the Theorem Prover
+	-quick version-  :check
+	-exhaustive-  :sat  or  :prove
+		*sat converts theorem into sat problem, where only variables
+		of type bit, and, or, equals can be used
+
+Example of Running a New Property from AES128.cry
+	/* new prop - inputs generate unique output */
+	property crazy_anti_prop k p = AESEncrypt k p != p
+	/* run 100000 instances */
+	:set tests=100000  
+	/* check validity for 100000 different inputs */
+	:check crazy_anti_prop (takes much longer for 100000 tests)
+	
+Example of Changing the Size of the Type
+	/* type - 8 bit vector */
+	add_mult_8 : [8] -> Bit
+	/* change type in terminal */
+	:t add_mult_8 
+
+Creating Benchmark Files Using OpenSSL (hacrypto/src/openssl)
+	/* command openssl uses */
+	openssl speed 'algorithm to test'
+	/* our benchmarks */
+	-For us, compile source code onto embedded processor and compare
+	speed benchmark to running it through the FPGA (only benchmarks we need)
+	-If we want to do the same for libsodium, we may just need to create
+	our own benchmark files if they do not exist (time for x iterations)
+
+Using Cryptol to Generate C code or Verilog
+	-already given to us, files should compile as is
+	-ask Galois to generate new C code for us
+
+For Now and Before Our Next Meeting
+	-get everything working perfectly for AES128
+	-read ProgrammingCryptol for info on AES128
+	-come back for more stuff after this is finished
+		-public key ciphers, sha, rng (counts as crypto algorithm)
+	-go through 'Suite B' Crypto file and do everything in appropriate 
+	order
+	-write the testbench for .c version of aes128 to get benchmarks
+	-load verilog version onto the FPGA and compare
+
+Questions Answered
+	-Capstone presentation date set for June, Thursday before finals week
+
+
+
