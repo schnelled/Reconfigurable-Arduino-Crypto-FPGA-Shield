@@ -17,6 +17,7 @@ it was able to encrypt in 3 seconds for each size.
     - The purpose of this was to simplify some of the functionality in the OpenSSL benchmark library for use on our embedded
     boards so that we can create our own benchmarks on the embedded systems.  
         - Also to generate similar functionality and similar results to the OpenSSL speed benchmark shown above.
++ Added an hacrypto version of the AES128 benchmark that uses the __AES_cbc_encrypt()__ function above.   
 
 ### Running Cryptol with z3 for Ubuntu Server
 + Download binary for Cryptol and z3 using appropriate version (x32,x64)
