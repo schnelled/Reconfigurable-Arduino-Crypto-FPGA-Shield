@@ -1,0 +1,40 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 4/9/18 thru 4/13/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Created benchmark files for .c versions of aes128 from openssl.
+2.Benchmarks created on linux server, arduino uno, mojo v3.
+3.The issue from last week was fixed by shrinking down some of the global buffers (Te0-Te3) that were being used during the encryption.  Instead of being arrays of size 256, they are now size 128 and size 32 for the Arduino Uno and Mojo v3 respectively.
+4.This may affect the correctness of the algorithm, but as far as benchmarking is concerned.. it seems like the best solution for the lack of memory capacity on some of these embedded boards.
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Figure out why our aes files are not able to load correctly onto the FPGA.
+2.Continue working through everything in the files that were given to us
+from Galois.
+3.Fix any current issues with the .c versions of aes128, generate some 
+statistical analysis (multiple trials w/ stdev).
+4.Start looking into creating benchmarks for SHA1-2 while other members are
+looking into solutions to the FPGA problem.
+5.Set up another meeting with Galois or just get some detailed answers to some of our current questions and roadblocks through the slack channel.
+
+Issues:
+
+----------------------------------------------------------------------------
+1.We are experiencing issues loading an aes128 version of a verilog bitstream onto our FPGA.
+2.Might be due to not having a correct version of the verilog or bitstream
+file or possibly we are not loading it correctly.
+3.Will work on figuring out a solution to this problem this week.
+4.Group members working with the Papilio were having issues getting the 
+Arduino dev environment up and running on board.. but they are currently 
+working on a solution for that.
