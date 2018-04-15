@@ -14,7 +14,6 @@ int aes128_iter_counter(AES_KEY *aes_ks1)
 struct timespec start, end;
 unsigned long nsec_time;
 unsigned char iv[VEC_SIZE];
-double sec_time;
 int iters;
 
 /* encryption counter */
@@ -27,8 +26,6 @@ do{
 			  end.tv_nsec - start.tv_nsec;
 	++iters;
 }while(nsec_time < (TIMER * NANO));
-
-sec_time = nsec_time / (double)NANO;
 
 return iters;
 

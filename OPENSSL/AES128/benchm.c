@@ -10,7 +10,7 @@ void aes128_cbc_encrypt_wrap(size_t size, AES_KEY *aes_ks1,
 			     unsigned char *iv)
 {
 
-unsigned char buf[VEC_SIZE];
+unsigned char buf[BLOCK_SIZE];
 
 /* From aes_cbc.c */
 AES_cbc_encrypt(buf, buf, size, aes_ks1, iv, AES_ENCRYPT);
