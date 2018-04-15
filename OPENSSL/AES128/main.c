@@ -1,8 +1,12 @@
 #include <time.h>
+#include <stdint.h>
 #include "benchm.h"
+#include "benchm_time.h"
+#include "bench_stats.h"
 
 /* 
-	This is just an example of something that can be run on the Arduino.
+	This is just an example of something that can be run on the 
+	Arduino.
 	Arduino has its own version of time.h but basically the same.
 	Remove the print statements and possibly use a static key.
 	Should give you a good idea of how the AES-128 encryption works.
@@ -10,71 +14,50 @@
 int main()
 {
 
-int count = 0;
-
-clock_t start, stop;
-
-unsigned char buf[VEC_SIZE];
-unsigned char key[VEC_SIZE];
-
+/* Variables */
+unsigned char iv[VEC_SIZE];
 AES_KEY aes_ks1;
 
-/* Same key that OpenSSL uses for aes-128 */
-static const unsigned char key16[VEC_SIZE] = {
-    0x12, 0x34, 0x56, 0x78, 0x9a, 0xbc, 0xde, 0xf0,
-    0x34, 0x56, 0x78, 0x9a, 0xbc, 0xde, 0xf0, 0x12, 
-};/* Just for testing, key is random down below */
+double sec_time[TRIALS];
+int encrypt_count[TRIALS];
 
-srand(time(0));
+float mean_time, mean_count, std_dev_time, std_dev_count;
 
-int count_vector[TRIALS];
-int count_tot = 0;
-int count_avg = 0;
+/* Set the key */
+aes128_key_wrap(&aes_ks1);
 
-/* Do x trials just for fun, change value in benchm.h */
-for(int k = 0; k < TRIALS; k++){
+for(int i = 0; i < TRIALS; i++)
+{
 
-count_vector[k] = 0;
+printf("\nTRIAL %d\n", i+1);
 
-printf("\n\nTrial %d\n\n", k+1);
+/* Timer function */
+sec_time[i] = aes128_iter_timer(&aes_ks1);
 
-/* Generate a random buffer to start with */
-printf("\nStarting Input Vector: ");
-for(int i = 0; i < VEC_SIZE; i++){
-	buf[i] = rand() % MAX_BIN_VAL;
-	printf("%x", buf[i]);
-}
-printf("\n\n");
+/* Print out the time */
+printf("\n\nSeconds to encrypt %ld size %d blocks: %.8lf\n\n", ITERS, 
+	BLOCK_SIZE, sec_time[i]);
 
-/* Also uses a random key */
-printf("\nStarting Key Vector: ");
-for(int i = 0; i < VEC_SIZE; i++){
-	key[i] = rand() % MAX_BIN_VAL;
-	printf("%x", key[i]);
-}
+/* Counter function */
+encrypt_count[i] = aes128_iter_counter(&aes_ks1);
 
-/* OpenSSL function, aes_core.c */
-AES_set_encrypt_key(key, 128, &aes_ks1);
-
-printf("\n\nRunning....\n\n");
-
-/* Check how many encryptions get evaluated in some time frame */
-start = time(NULL);
-
-do {
-	/* aes_core.c */
-	AES_encrypt(buf,buf,&aes_ks1);
-	stop = time(NULL) - start;
-	++count_vector[k];
-}while(stop < 3);
-
-count_tot += count_vector[k];
-
-printf("\n\nTotal blocks encrypted in 3 seconds: %d\n\n", count_vector[k]);
+/* Print out the # of encryptions */
+printf("\n\nEncrypted %d size %d blocks in %.1Lf seconds.\n\n", 
+	encrypt_count[i], BLOCK_SIZE, TIMER); 
 
 }
-count_avg = count_tot / TRIALS;
-printf("\n\nAverage blocks encrypted per %d trials: %d\n\n", TRIALS, count_avg);
+
+/* generate stats */
+aes128_time_stats(sec_time, &mean_time, &std_dev_time);
+
+printf("\n\n%d Trials Mean Time for %ld Encryptions: %.8lf with Standard "
+       "Deviation: %.8lf\n\n", TRIALS, ITERS, mean_time, std_dev_time);
+
+aes128_count_stats(encrypt_count, &mean_count, &std_dev_count);
+
+printf("\n\nMean Encryptions in %.1Lf Seconds: %.3lf with Standard "
+       "Deviation: %.8lf\n\n", TIMER, mean_count, std_dev_count);
+
 
 return 0;
 }
