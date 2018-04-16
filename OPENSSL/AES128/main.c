@@ -8,32 +8,22 @@
 #undef DEBUG
 
 /* 
-	This is just an example of something that can be run on the 
-	Arduino.
-	Arduino has its own version of time.h but basically the same.
-	Remove the print statements and possibly use a static key.
-	Should give you a good idea of how the AES-128 encryption works.
+	This main.c is just a testing playground for AES128 Encryption.
+
+	Many of these files may not work on all systems, i.e. Arduino.
+	The functionality should generally be the same and hopefully
+	will need only slight modifications to run on other platforms.
 */
 int main()
 {
 
 /* Variables */
 AES_KEY aes_ks1;
-unsigned char test_key[16];
-unsigned char test_in[16];
-unsigned char test_out[16];
-int file_count = 0;
 
-FILE *fp;
-fp = fopen("aes.kat", "r");
-
-do{
-	aes128_read_file(fp, test_key, test_in, test_out);
-	aes128_encrypt_match(&aes_ks1, test_key, test_in, test_out);
-	++file_count;
-}while(file_count < 100);
-
-fclose(fp);
+if(!aes128_test_vectors(&aes_ks1))
+	printf("\nError with file reading.\n");
+else
+	printf("\nAll test vectors match!\n");
 
 
 #ifdef DEBUG
