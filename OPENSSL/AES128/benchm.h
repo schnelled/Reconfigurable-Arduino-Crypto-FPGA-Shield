@@ -6,12 +6,16 @@
 
 /* defines */
 #define MAX_BIN_VAL 255
-#define TRIALS      20
+#define TRIALS      5
 #define VEC_SIZE    16
+#define BLOCK_SIZE  16
 
 #ifdef __cplusplus
 extern "C" {
 #endif
+
+int aes128_key_wrap(AES_KEY *);
+void aes128_cbc_encrypt_wrap(size_t, AES_KEY *, unsigned char *);
 
 #ifdef __cplusplus
 }
