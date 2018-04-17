@@ -1,0 +1,26 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/31/18 thru 4/6/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Used openSSL to gain better understanding of AES128 algorithm.
+2. Researched more information about SSL (Secure Socket Layer) and TLS
+  (Transport Layer Security).
+3. Continued to learn more about Cryptol using ProgrammingCryptol.pdf
+4. Used openSSL to gain better understanding of SHA1 algorithm.
+5. Conducted demo meeting with Dr. Teuscher (4/3/18).
+6. Added information about openSSL basic operations to the Cryptographic
+  Algorithms Wiki page.
+7.
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Upload working copy of AES128 C code to Arduino Uno.
+2. Get benchmarks and testbenches loaded onto the embedded processor and FPGA.
+3. Update the Gantt chart to show current progress and revised schedule.
+
+Issues:
+----------------------------------------------------------------------------

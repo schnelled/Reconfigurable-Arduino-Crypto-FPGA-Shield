@@ -1,0 +1,19 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 4/2/18 thru 4/9/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Working on benchmark file for MCU
+2. Uploading new testbench for FPGA
+3. Last week's issue has been resolved
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Check if parameters used in benchmark file and testbench are correct
+2. Used incorrect file or idea for creating the testbench so rework on the testbench
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Understand why bitgen isn't getting uploaded on the FPGA

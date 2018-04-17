@@ -1,0 +1,34 @@
+From:		Dustin Schnelle <schnelle@pdx.edu>
+To:		<Gomathy Venkata Krishnan>, <Ryan Bornhorst>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 4/7/18 thru 4/13/18: Capstone Project”
+
+
+Accomplishments From the Week:
+----------------------------------------------------------------------------
+1. Uploaded AES128.c functionality to the Arduino Uno and preformed initial
+  testing of the functionality.
+2. Uploaded AES128.c functionality to the Arduino Mega for comparison.
+3. Ran tests on AES128 on the Arduino Uno & Mega, Virtual Machine running
+  Linux Ubuntu, and the PSU school server.
+4. Added Papalio One 250K wiki page with information about the initial setup.
+5. Tried uploading AES128.c to the Papalio One 250K development board.
+6. Put together meeting slides for my turn to present at the weekly meeting
+  with Dr. Teuscher.
+7. Worked on updating the Gantt chart to show current progress
+
+Goals For the Coming Week:
+----------------------------------------------------------------------------
+1. Get benchmarks and testbenches loaded onto the embedded processor and FPGA.
+2. Finish updating the Gantt chart by adding allocating resources.
+3. Figure out error with compiling on the ZAP IDE.
+4. Gain understanding about the AES128.sv file.
+5. Setup another meeting with Galois and generate important questions.
+
+Issues:
+----------------------------------------------------------------------------
+1. Compiling sketches on the ZAP IDE produces an error.
+  2 [main] cp 1064 fast_find_cwd: WARNING: Couldn't compute FAST_CWD pointer
+  cygwin warning:
+    MS_DOS style path detection:
+    Preferred POSIX equivalent is:
