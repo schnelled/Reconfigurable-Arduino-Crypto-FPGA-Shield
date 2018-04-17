@@ -1,0 +1,22 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 4/10/18 thru 4/17/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Understand all the parameters that need to be checked in th testbench and benchmark file
+2. Uploaded bitgen written based on file in gulphaac folder in the Mojo Board
+3. Found a way to test if all the vectors given as input are processed both before and after uploading on the board
+4. Previous week's issue has been resolved
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Sit as a team and verify if current testbench is working properly
+2. Make a plan as to how we would write the testbench for SHA and the Digital Signature algorithms
+3. Revise the GANTT chart
+4. Update mentor and sponsor informing them about the progress made
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+No issues
