@@ -1,5 +1,7 @@
 #include "aes_tb.h"
 
+#define FILE_NAME "aes.kat"
+
 /*
 	Reads in a File of Vectors
 	Compares input, key, and 
@@ -17,7 +19,7 @@ int ret = 0;
 FILE *fp;
 
 /* read file and test vectors */
-fp = fopen("aes.kat", "r");
+fp = fopen(FILE_NAME, "r");
 
 if(!fp)
 	return -1;

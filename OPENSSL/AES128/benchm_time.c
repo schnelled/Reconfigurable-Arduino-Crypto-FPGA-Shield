@@ -14,13 +14,13 @@ int aes128_iter_counter(AES_KEY *aes_ks1)
 struct timespec start, end;
 unsigned long nsec_time;
 unsigned char iv[VEC_SIZE];
-int iters;
+int iters = 0;
 
 /* encryption counter */
 clock_gettime(CLOCK_REALTIME, &start);
 do{
 	aes128_bench_timer(ITERS, (size_t)BLOCK_SIZE, aes_ks1, iv, 
-			   BENCH_TIME);
+			   BENCH_COUNT);
 	clock_gettime(CLOCK_REALTIME, &end);
 	nsec_time = NANO*(end.tv_sec - start.tv_sec) + 
 			  end.tv_nsec - start.tv_nsec;
@@ -45,11 +45,11 @@ double aes128_iter_timer(AES_KEY *aes_ks1)
 struct timespec start, end;
 unsigned long nsec_time;
 unsigned char iv[VEC_SIZE];
-double sec_time;
+double sec_time = 0.0;
 
 /* encryption timer */
 clock_gettime(CLOCK_REALTIME, &start);
-aes128_bench_timer(ITERS, (size_t)BLOCK_SIZE, aes_ks1, iv, BENCH_COUNT);
+aes128_bench_timer(ITERS, (size_t)BLOCK_SIZE, aes_ks1, iv, BENCH_TIME);
 clock_gettime(CLOCK_REALTIME, &end);
 
 nsec_time = NANO*(end.tv_sec - start.tv_sec) +
@@ -71,7 +71,7 @@ void aes128_bench_timer(long iters, size_t size, AES_KEY *aes_ks1,
 		        unsigned char *iv, int benchtype)
 {
 
-if(benchtype)
+if(!benchtype)
 {
 
 	long count = 0;

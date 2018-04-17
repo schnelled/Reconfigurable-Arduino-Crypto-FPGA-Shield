@@ -56,7 +56,7 @@ mean = mean_sum / (float)TRIALS;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	dev_sum += pow((iters[i] - mean), 2);
+	dev_sum += (float)pow((iters[i] - mean), 2);
 }
 
 /* get the standard deviation */
@@ -89,7 +89,7 @@ mean = mean_sum / (float)TRIALS;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	dev_sum += pow((time[i] - mean), 2);
+	dev_sum += (float)pow((time[i] - mean), 2);
 }
 
 /* get the standard deviation */

@@ -5,7 +5,9 @@
 #include "bench_stats.h"
 #include "aes_tb.h"
 
-#undef DEBUG
+#define DEBUG
+#define TIME_TRIAL
+#undef  COUNT_TRIAL
 
 /* 
 	This main.c is just a testing playground for AES128 Encryption.
@@ -33,13 +35,17 @@ int encrypt_count[TRIALS];
 /* Set the key */
 aes128_key_wrap(&aes_ks1);
 
-/* run trials */
-aes128_timer_trials(&aes_ks1, sec_time);
-aes128_count_trials(&aes_ks1, encrypt_count);
+	/* run trials */
+	#ifdef TIME_TRIAL
+	aes128_timer_trials(&aes_ks1, sec_time);
+	aes128_time_stats(sec_time);
+	#endif
 
-/* generate stats */
-aes128_time_stats(sec_time);
-aes128_count_stats(encrypt_count);
+	#ifdef COUNT_TRIAL
+	aes128_count_trials(&aes_ks1, encrypt_count);
+	aes128_count_stats(encrypt_count);
+	#endif
+
 printf("\n\n");
 #endif
 

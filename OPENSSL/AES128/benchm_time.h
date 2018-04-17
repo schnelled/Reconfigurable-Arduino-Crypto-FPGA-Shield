@@ -4,7 +4,7 @@
 
 #define NANO        1000000000L
 #define ITERS       10000000L
-#define TIMER       1.5L
+#define TIMER       1.0L
 #define BENCH_TIME  0
 #define BENCH_COUNT 1
 

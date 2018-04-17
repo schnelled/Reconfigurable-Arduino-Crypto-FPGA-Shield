@@ -6,7 +6,7 @@
 
 /* defines */
 #define MAX_BIN_VAL 255
-#define TRIALS      5
+#define TRIALS      50
 #define VEC_SIZE    16
 #define BLOCK_SIZE  16
 
