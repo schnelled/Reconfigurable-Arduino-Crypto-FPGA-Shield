@@ -1,0 +1,20 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:		<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 3/26/18 thru 4/1/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Tested basic programs on the Pulserain
+2. Found an alternative and more effecient way to program the pulserain without the IDE.
+3. Tested the bitgen in Hacrypto
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Create a basic benchmark file looking at openssl
+2. Decide how the testbench would be created for the FPGA
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Had issues uploading benchmark file on the board since it took too much runtime memory as per memory errors displayed on compiler 
+error log of Arduino IDE
