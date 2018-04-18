@@ -12,7 +12,7 @@ int aes128_iter_counter(AES_KEY *aes_ks1)
 
 /* variables */
 struct timespec start, end;
-unsigned long nsec_time;
+unsigned long nsec_time = 0;
 unsigned char iv[VEC_SIZE];
 int iters = 0;
 
@@ -43,7 +43,7 @@ double aes128_iter_timer(AES_KEY *aes_ks1)
 
 /* variables */
 struct timespec start, end;
-unsigned long nsec_time;
+unsigned long nsec_time = 0;
 unsigned char iv[VEC_SIZE];
 double sec_time = 0.0;
 
@@ -74,7 +74,7 @@ void aes128_bench_timer(long iters, size_t size, AES_KEY *aes_ks1,
 if(!benchtype)
 {
 
-	long count = 0;
+	int count = 0;
 
 	do{
 		/* count the encryptions */

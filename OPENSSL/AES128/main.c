@@ -8,7 +8,7 @@
 #define DEBUG
 #define TIME_TRIAL
 #undef  COUNT_TRIAL
-
+#undef  FILE_READ
 /* 
 	This main.c is just a testing playground for AES128 Encryption.
 
@@ -22,11 +22,12 @@ int main()
 /* Variables */
 AES_KEY aes_ks1;
 
+#ifdef FILE_READ
 if(!aes128_test_vectors(&aes_ks1))
 	printf("\nError with file reading.\n");
 else
 	printf("\nAll test vectors match!\n");
-
+#endif
 
 #ifdef DEBUG
 double sec_time[TRIALS];

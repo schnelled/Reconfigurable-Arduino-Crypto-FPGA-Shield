@@ -31,7 +31,7 @@ for(int i = 0; i < TRIALS; i++)
 
 	time[i] = aes128_iter_timer(aes_ks1);
 
-	printf("\nBlocks: %ld Size: %d Seconds: %.8lf\n", ITERS, 
+	printf("\nBlocks: %ld Size: %d Seconds: %.3lf\n", ITERS, 
 		BLOCK_SIZE, time[i]);	
 }
 
@@ -44,28 +44,28 @@ for(int i = 0; i < TRIALS; i++)
 void aes128_count_stats(int * iters)
 {
 
-float mean_sum, dev_sum, dev_mean, mean, std_dev;
+double mean_sum, dev_sum, dev_mean, mean, std_dev;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	mean_sum += (float)iters[i];
+	mean_sum += iters[i];
 }
 
 /* get the mean */
-mean = mean_sum / (float)TRIALS;
+mean = mean_sum / TRIALS;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	dev_sum += (float)pow((iters[i] - mean), 2);
+	dev_sum += ((iters[i] - mean) * (iters[i] - mean));
 }
 
 /* get the standard deviation */
 dev_mean = dev_sum / TRIALS;
-std_dev = (float)sqrt(dev_mean);
+std_dev = sqrt(dev_mean);
 
 /* results */
-printf("\nTrials: %d Time: %.1Lf Average Encryptions: %.3lf Standard "
-       "Deviation: %.8lf\n", TRIALS, TIMER, mean, std_dev);
+printf("\nTrials: %d Time: %.1Lf Average Encryptions: %.3f Standard "
+       "Deviation: %.3f\n", TRIALS, TIMER, mean, std_dev);
 
 }
 
@@ -77,27 +77,27 @@ printf("\nTrials: %d Time: %.1Lf Average Encryptions: %.3lf Standard "
 void aes128_time_stats(double *time)
 {
 
-float mean_sum, dev_sum, dev_mean, mean, std_dev;
+double mean_sum, dev_sum, dev_mean, mean, std_dev;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	mean_sum += (float)time[i];
+	mean_sum += time[i];
 }
 
 /* get the mean */
-mean = mean_sum / (float)TRIALS;
+mean = mean_sum / TRIALS;
 
 for(int i = 0; i < TRIALS; i++)
 {
-	dev_sum += (float)pow((time[i] - mean), 2);
+	dev_sum += ((time[i] - mean) * (time[i] - mean));
 }
 
 /* get the standard deviation */
 dev_mean = dev_sum / TRIALS;
-std_dev = (float)sqrt(dev_mean);
+std_dev = sqrt(dev_mean);
 
 /* results */
-printf("\nTrials: %d Encryptions: %ld Average Time: %.8lf Standard "
-       "Deviation: %.8lf\n", TRIALS, ITERS, mean, std_dev);
+printf("\nTrials: %d Encryptions: %ld Average Time: %.3f Standard "
+       "Deviation: %.3f\n", TRIALS, ITERS, mean, std_dev);
 
 }	
