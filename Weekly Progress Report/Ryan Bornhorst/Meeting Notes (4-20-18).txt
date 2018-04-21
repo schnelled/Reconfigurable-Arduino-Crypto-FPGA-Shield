@@ -1,0 +1,48 @@
+Meeting Notes (4/20/18)- at Galois
+
+Current Project Notes:
+
+Purpose of doing the bi-simulation in Verilog
+	-can grab all the factors that matter to us in single simulation
+	-performance, space, correctness, area (LUTs used by FPGA)
+
+2 items to take into account about our project
+	1. FPGA will likely be faster than anything, 500 - 1000x faster
+	2. Server simulations are not the best for stddev calculations
+		-FPGA should have very small stddev for benchmarks
+
+---------------------------------------------------------------------------
+
+Where to go next:
+
+SHA-256 -> located in libvcrypt
+	-Galois might attempt to synthesize a SHA-2 for us in verilog
+	-otherwise Joe mentioned an opensource version on "opencourse"?
+		-may not be correct, needs to be tested
+
+RNG -> uses either AES or SHA to generate random data, drbg based
+
+Joe introduced us to Flemming, who will walk us through a rigorous AES.sv 
+testbench file used for verification and speed.
+
+Jasper is a software than runs through theorem provers.
+
+Presentation Date -> 6/7/18  (pick time between 9am and 4pm) - ask advisor
+Poster Date -> 6/8/18
+
+----------------------------------------------------------------------------
+
+Random Notes:
+
+FPGA should be a lot faster for small encryptions, less so for larger ones
+	-due to processor caching data, locality
+
+Can't show full verilog source code during presentation, fragments allowed.
+Can say "high assurance artifacts come from Galois and were produced for 
+Dept. of Defense" - something like that but not more than that
+
+Don't use powerpoint for the poster. Joe supplied us with some examples.
+
+crowdsupply.com -> sign up to go to teardown
+	-few weeks from now
+	-great learning opportunity

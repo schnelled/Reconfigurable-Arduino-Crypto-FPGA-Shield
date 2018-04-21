@@ -1,0 +1,38 @@
+From:		<Ryan Bornhorst> <<bornhor2@pdx.edu>>
+
+To:		<Gomathy>, <Meiqi>, <Dustin>
+
+Bcc:		me
+
+Subject:	Weekly Progress Report “Week 4/16/18 thru 4/20/18: Capstone Project”
+
+
+
+Accomplishments From the Week:
+
+----------------------------------------------------------------------------
+1.Created files that measure stddev for x amount of trials running AES 
+encryption.
+2.Can benchmark either time taken or encryptions processed.
+3.Spent some time researching SHA 1-2, SHA2 takes in any amount of data and
+outputs a digest of 64 bytes, the digest is unique to each data input passed
+through it.
+4.Met with sponsors and got more direction on where to go from here.
+	-continue gathering data/research with AES-128
+	-move on to SHA-256 and do the same, may not have good verilog for 
+	the FPGA to run on
+	-figure out which data is most useful for poser/presentation
+
+
+Goals For the Coming Week
+
+----------------------------------------------------------------------------
+1.Gather up and finalize data for running through AES-128.
+2.Run verilog benchmarks on the FPGA and compare speed, area, correctness.
+2.Start going through the same analysis with SHA-256.
+4.Create bi-simulation that runs through aes.c and aes.sv at the same time.
+
+Issues:
+
+----------------------------------------------------------------------------
+None
