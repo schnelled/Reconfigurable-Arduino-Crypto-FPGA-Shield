@@ -1,5 +1,5 @@
 # Reconfigurable-Arduino-Crypto-FPGA-Shield
-Portland State University 2017 Capstone Project
+Portland State University 2018 Capstone Project
 
 ### Running Speed Benchmark for OpenSSL
 + $ openssl speed aes-128-cbc
