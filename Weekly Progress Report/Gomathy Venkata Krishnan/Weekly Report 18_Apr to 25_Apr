@@ -1,0 +1,22 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:			<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 4/18/18 thru 4/25/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Configured the FPGA on a Mojo v3
+2. Downloaded Vivado ISE for Mojo v3 
+3. Tried a demo program on Nexys DDR4 board 
+4. Found a bitstream generator for Intel M10 chip on PulseRain 
+5. Ran benchmark file on Arduino Mega MCU 
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Try to simulate given Verilog files and try QuestaSim and Vivado 
+2. Try to synthesize file and understand the use of System Verilog CSP 
+3. Understand the cause for synthesis errors in Proc_AESEncrypt
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+No issues
