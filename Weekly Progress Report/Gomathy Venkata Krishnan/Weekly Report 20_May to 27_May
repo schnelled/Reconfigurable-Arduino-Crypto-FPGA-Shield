@@ -1,0 +1,27 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:			<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 5/20/18 thru 5/27/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Tested the new top module and start working on putting together the poster 
+2. Fixed timing for capstone presentation and talked about key points to include in the presentation 
+3. Tx module is functioning properly in Vivado
+4. Set up Microblaze to perform frequency sweeps to identify timing violations
+5. Used Digital Clock Manager in Microblaze
+6. Generated bitstream for Mojo v3 (Spartan 6) using Yosys and other tools 
+7. Tried to calculate maximum throughput and observed no of LUTs, slices and BRAMs in use in Vivado HLx
+8. Used Microblaze results instead of Vivado HLx results as timing violations have been resolved and Tx, Rx modules have been configured
+9. Put together a poster and sent it to sponsors and advisor for review 
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Revise poster and send for printing 
+2. Plot new graphs and create tables with all the performance results 
+3. Start putting together the presentation and include Joe's suggestions
+ 
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Last week's issues have been resolved 
+Microblaze needed a license file to generate and save report so had to manually take down data
