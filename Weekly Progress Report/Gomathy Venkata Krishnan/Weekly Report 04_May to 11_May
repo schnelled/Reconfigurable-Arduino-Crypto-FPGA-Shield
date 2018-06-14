@@ -1,0 +1,22 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:			<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 5/04/18 thru 5/11/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Went to Galois for demo on Cryptol and SAW 
+2. Looked up how to benchmark SHA-1 using OpenSSL
+3. Noticed repetitive fuction/task declarations in aes_functions
+4. Noticed floorplanning and timing errors in top module
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Change the FPGA in use and find a board where 384 I/O pins can be placed and routed
+2. Understand how to load bitstream onto boards that do not have 384 pins
+3. Load bitstream onto Mojo v3 board 
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+1. Contact sponsors and update them about the floorplanning errors
+2. Unable to find a way to synthesize design with no constraints file
