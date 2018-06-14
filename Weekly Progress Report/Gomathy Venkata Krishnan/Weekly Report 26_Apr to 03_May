@@ -1,0 +1,22 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:			<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 4/26/18 thru 5/03/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Simulated and verified that the output generated in the waveform are correct in Vivado
+2. Simulated the files in QuestaSim
+3. Fixed the System Verilog Package error in Vivado 
+4. Downloaded other tools to identify cause of synthesis errors
+5. Ran benchmark file on Arduino Mega 
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Identify cause of synthesis error in Vivado 
+2. Understand how to configure channals and interfaces in Vivado
+3. Inform mentor and sponsor about synthesis errors 
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+No issues
