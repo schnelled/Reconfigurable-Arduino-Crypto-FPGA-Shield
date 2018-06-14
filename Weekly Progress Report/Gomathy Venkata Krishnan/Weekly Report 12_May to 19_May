@@ -1,0 +1,29 @@
+From:		<Gomathy> <<gomathy@pdx.edu>>
+To:			<Ryan Bornhorst>, <Dustin Schnelle>, <Meiqi Zhao>
+Bcc:		me
+Subject:	Weekly Progress Report “Week 5/12/18 thru 5/19/18: Capstone Project”
+
+Accomplishments From the Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Heard back from Galois about using a wrapper function to process smaller streams of data instead of 128 bits
+2. Started working on Ryan's idea of using a wrapper function, RS-232 or UART
+3. Configured the seven seven display on the Nexys DDR4 board to display the encrypted data
+4. Looked up case studies showing how to create an API to display encrypted data and find speed and area
+5. Evaluated what factors should be used to assess the performance of the FPGA
+6. Thought about possible template for Capstone poster 
+7. Replaned deliverables for Capstone poster, presentation and demo 
+8. Resynthesize current top module with inputs, outputs and wires
+9. Created new top module with UART processing 8 bits at a time
+10.Focus primarily on AES-128 as SHA and RNG do not have synthesizable .v files 
+
+Goals For the Coming Week:
+--------------------------------------------------------------------------------------------------------------------------------------
+1. Contact a instructor and talk about possible options of creating new top module
+2. Discussed with advisor and other instructors about the factors which are important in determining and comparing performance of the FPGA
+3. Decide design for new top module 
+4. Try resources pointed out by Ryan for creating UART module
+5. Experiment with Microblaze to understand it's use and functionality 
+
+Issues/Remarks:
+------------------------------------------------------------------------------------------------------------------------------------
+Last week's issues have been resolved 
